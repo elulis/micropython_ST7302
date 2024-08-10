@@ -3,7 +3,7 @@ import time, framebuf
 FRAMERATE_1 = (0x39, 0x02) # (best quality) 0x39-LPM 0x02-HPM_16Hz_LPM_1Hz
 FRAMERATE_8 = (0x39, 0x05) # (best quality) 0x39-LPM 0x05-HPM_16Hz_LPM_8Hz
 FRAMERATE_16 = (0x38, 0x05) # (best quality) 0x38-HPM 0x05-HPM_16Hz_LPM_8Hz
-FRAMERATE_32 = (0x38, 0x15) # (lower quality) 0x38-HPM 0x05-HPM_32Hz_LPM_8Hz
+FRAMERATE_32 = (0x38, 0x15) # (lower quality) 0x38-HPM 0x15-HPM_32Hz_LPM_8Hz
 
 class TFT29(framebuf.FrameBuffer):
     """ 2.9inch, 384x168 framebuf """
