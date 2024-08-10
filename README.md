@@ -1,5 +1,5 @@
 # MicroPython ST7302 driver
-MicroPython driver for ST7302 2.13 inch Reflective TFT, viper(faster) and bytecode version provided. No additional memory is required after init. 
+MicroPython driver for ST7302/ST7305 2.13/2.9 inch Reflective TFT, viper(faster) and bytecode version provided. No additional memory is required after init.
 
 example for [ESP32-S2](https://micropython.org/download/LOLIN_S2_MINI/)
 
